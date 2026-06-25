@@ -42,7 +42,7 @@ const Desktop = () => {
     <div className="relative min-h-screen w-full overflow-hidden bg-abyss">
       {/* Три зоны фоном */}
       <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-3">
-        {[IMAGES.district, IMAGES.eye, IMAGES.chapel].map((bg, i) => (
+        {[IMAGES.district, IMAGES.courtyard, IMAGES.chapel].map((bg, i) => (
           <div key={i} className="relative">
             <div
               className="absolute inset-0 opacity-40"
@@ -147,10 +147,14 @@ const Desktop = () => {
         </section>
       </div>
 
-      {/* Угловые интерактивы */}
+      {/* Таймер — верхний правый */}
       <InfinityTimer />
-      <RavenFeather />
-      <TarotDeck />
+
+      {/* Нижняя центральная панель */}
+      <div className="pointer-events-auto fixed bottom-0 left-1/2 z-30 flex -translate-x-1/2 items-end gap-8 pb-5">
+        <TarotDeck />
+        <RavenFeather />
+      </div>
 
       {/* Папки */}
       {folder === 'elysium' && (

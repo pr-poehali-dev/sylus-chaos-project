@@ -12,7 +12,7 @@ const TarotDeck = () => {
   };
 
   return (
-    <div className="pointer-events-auto fixed bottom-4 left-4 z-30 flex flex-col items-start gap-2">
+    <div className="flex flex-col items-center gap-2">
       {open && card && (
         <div className="w-60 border border-gold/40 bg-black/90 p-5 backdrop-blur-md animate-fade-up box-glow-gold">
           <div className="mb-3 flex items-center gap-2">

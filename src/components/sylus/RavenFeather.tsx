@@ -37,9 +37,9 @@ const RavenFeather = () => {
         />
       )}
 
-      <div className="pointer-events-auto fixed bottom-4 right-4 z-30 flex flex-col items-end gap-2">
+      <div className="flex flex-col items-center gap-2">
         {message && (
-          <div className="max-w-xs border border-blood/40 bg-black/90 p-4 text-right backdrop-blur-md animate-fade-up box-glow-blood">
+          <div className="max-w-xs border border-blood/40 bg-black/90 p-4 text-center backdrop-blur-md animate-fade-up box-glow-blood">
             <p className="font-voice text-sm leading-relaxed text-blood text-glow-blood">
               «{message}»
             </p>
