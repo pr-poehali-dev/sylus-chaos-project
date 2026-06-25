@@ -1,7 +1,7 @@
 export const IMAGES = {
   courtyard:
     'https://cdn.poehali.dev/projects/70c01a29-6312-4a76-8b5c-454c4e963cf4/files/1a76b4b0-d418-41b1-b055-8c0f5f3ff106.jpg',
-  eye: 'https://cdn.poehali.dev/projects/70c01a29-6312-4a76-8b5c-454c4e963cf4/files/ed2deae4-82d2-4f8d-b79a-1eb88fb1681f.jpg',
+  eye: 'https://cdn.poehali.dev/projects/70c01a29-6312-4a76-8b5c-454c4e963cf4/bucket/ecd6770c-5c8f-48df-ad1f-dbba0d01a8b6.jpg',
   district:
     'https://cdn.poehali.dev/projects/70c01a29-6312-4a76-8b5c-454c4e963cf4/files/01061daa-004e-487a-81be-fd9e61fd750b.jpg',
   chapel:
