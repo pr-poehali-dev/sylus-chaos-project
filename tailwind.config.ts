@@ -61,7 +61,17 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				abyss: 'hsl(var(--abyss))',
+				blood: 'hsl(var(--blood))',
+				gold: 'hsl(var(--gold))',
+				'shadow-violet': 'hsl(var(--shadow-violet))'
+			},
+			fontFamily: {
+				cinzel: ['Cinzel', 'serif'],
+				decorative: ['Cinzel Decorative', 'serif'],
+				voice: ['Courgette', 'cursive'],
+				body: ['EB Garamond', 'Georgia', 'serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
